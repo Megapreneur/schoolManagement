@@ -7,5 +7,5 @@ public class Staff {
     private String email;
     private String gender;
     private int age;
-    private StaffType type;
+    private StaffType staff;
 }
