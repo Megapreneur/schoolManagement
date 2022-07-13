@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55d0629c-7ff3-4586-9c2e-f805dfefbe10" name="Changes" comment="School Management App">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/data/model/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/data/model/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/data/model/StaffType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/data/model/StaffType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/data/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/data/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.data.model" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +70,7 @@
       <updated>1655853018366</updated>
       <workItem from="1655853019859" duration="1774000" />
       <workItem from="1657565489670" duration="762000" />
-      <workItem from="1657735554288" duration="634000" />
+      <workItem from="1657735554288" duration="1609000" />
     </task>
     <task id="LOCAL-00001" summary="School Management App">
       <created>1657735655926</created>
@@ -72,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657735655926</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="School Management App">
+      <created>1657736278821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657736278821</updated>
+    </task>
+    <task id="LOCAL-00003" summary="School Management App">
+      <created>1657736482176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657736482176</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
