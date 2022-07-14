@@ -1,4 +1,4 @@
-package africa.semicolon.Utils;
+package africa.semicolon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

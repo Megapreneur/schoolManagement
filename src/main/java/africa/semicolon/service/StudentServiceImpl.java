@@ -35,7 +35,7 @@ public class StudentServiceImpl implements StudentService{
         Student savedStudent = studentRepository.save(student);
 
         RegisterResponse response = new RegisterResponse();
-        response.setMessage(savedStudent.getName() + "Welcome to Quintessential College. your student ID is "
+        response.setMessage(savedStudent.getName() + " Welcome to Quintessential College. your student ID is "
                 + savedStudent.getStudentID());
         return response;
     }
