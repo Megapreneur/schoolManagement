@@ -57,6 +57,11 @@ public class StudentServiceImpl implements StudentService{
 
     @Override
     public CheckScoreResponse checkResult(CheckScoreRequest checkScoreRequest) {
+        Optional<Student> student = studentRepository.findByStudentID(checkScoreRequest.getStudentID());
+        if (student.isPresent()){
+            student.get().setStudentScore(checkScoreRequest.getStudentScore());
+            CheckScoreResponse checkScoreResponse = new CheckScoreResponse();
+        }
         return null;
     }
 

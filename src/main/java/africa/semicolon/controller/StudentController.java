@@ -20,6 +20,6 @@ public class StudentController {
     }
     @PostMapping("/student/login")
     public LoginResponse login(@RequestBody LoginRequest loginRequest){
-        return studentService.login(loginRequest)
+        return studentService.login(loginRequest);
     }
 }

@@ -31,6 +31,7 @@ public class Student {
     private Gender gender;
 
     private String studentID;
+    private int studentScore;
 
     @NonNull
     private int age;
