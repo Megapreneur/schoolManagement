@@ -2,6 +2,7 @@ package africa.semicolon.service;
 
 import africa.semicolon.Dto.Requests.*;
 import africa.semicolon.Dto.Response.*;
+import africa.semicolon.Exception.InvalidAccountException;
 import africa.semicolon.data.model.Student;
 import africa.semicolon.data.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,13 +47,12 @@ public class StudentServiceImpl implements StudentService{
         if(newStudent.isPresent()){
             if (newStudent.get().getPassword().equals(loginRequest.getPassword())){
                 LoginResponse loginResponse = new LoginResponse();
-                loginResponse.setMessage();
+                loginResponse.setMessage("Welcome " + newStudent.get().getName() + " how are you feeling today?");
+                return loginResponse;
             }
+            throw new InvalidAccountException("Incorrect password");
         }
-
-
-
-        return null;
+        throw new InvalidAccountException("Invalid Student ID");
     }
 
     @Override
