@@ -7,6 +7,7 @@ import africa.semicolon.data.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -41,8 +42,15 @@ public class StudentServiceImpl implements StudentService{
     }
     @Override
     public LoginResponse login(LoginRequest loginRequest) {
-        Student newStudent = new Student();
-        newStudent.setStudentID(loginRequest.getStudentID());
+        Optional<Student> newStudent = studentRepository.findByStudentID(loginRequest.getStudentID());
+        if(newStudent.isPresent()){
+            if (newStudent.get().getPassword().equals(loginRequest.getPassword())){
+                LoginResponse loginResponse = new LoginResponse();
+                loginResponse.setMessage();
+            }
+        }
+
+
 
         return null;
     }
