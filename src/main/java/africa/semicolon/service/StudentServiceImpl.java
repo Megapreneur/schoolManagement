@@ -39,9 +39,11 @@ public class StudentServiceImpl implements StudentService{
                 + savedStudent.getStudentID());
         return response;
     }
-
     @Override
     public LoginResponse login(LoginRequest loginRequest) {
+        Student newStudent = new Student();
+        newStudent.setStudentID(loginRequest.getStudentID());
+
         return null;
     }
 
